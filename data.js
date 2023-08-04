@@ -16,18 +16,18 @@ export const services = [
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "Building microservices, handling database, api using <b>Python </b> and its framework such as django , flask , fastapi & other popular frameworks",
+      "RESTful API design, data integration, cloud deployment (AWS, Azure), security implementation, and agile collaboration, delivering robust and scalable solutions for exceptional user experiences.",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Graphql</b> ",
+      "Experience in creating robust and scalable RESTful APIs, utilizing frameworks like Django REST framework",
   },
   {
     Icon: MdDeveloperMode,
     title: "Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    about: `a daily problem solver in <a href="https://www.hackerrank.com/rohitkumardude10?hr_r=1"><b>HackerRank</b></a>  and <a href="https://leetcode.com/rohitkumardude10/"><b>Leet Code</b></a> `,
   },
   
 ];

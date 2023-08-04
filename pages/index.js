@@ -7,11 +7,20 @@ const About = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
       <h6 className="my-3 text-base font-medium">
-        I am a Senior Software Engineer with over 4 years of experience
-        in the field. My expertise lies in developing and maintaining robust
-        code for data collection from various platforms, enhancing SEO
-        characteristics, and implementing data collection pipelines using APIs
-        and connectors. 
+        I am a Software Engineer with over 4 years of expertise
+        in the field. My skill set encompasses the development of robust data
+        collection code from diverse platforms, optimizing SEO characteristics,
+        and building data pipelines using APIs and connectors. Proficient in
+        Python, Django REST framework, and Next.js, I specialize in creating
+        scalable web services and RESTful APIs. Additionally, I am well-versed
+        in deploying projects on platforms like Heroku and AWS, ensuring
+        seamless deployment and storage. Alongside these technical capabilities,
+        my collaborative expertise extends to working closely with SEO
+        specialists and stakeholders, enabling me to understand client
+        requirements and implement multi-tenant architectures that deliver
+        personalized user experiences. I am thrilled to present this portfolio,
+        which highlights my notable achievements and contributions in the realm
+        of software engineering.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"

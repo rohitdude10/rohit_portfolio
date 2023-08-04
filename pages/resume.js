@@ -8,42 +8,43 @@ const Resume = () => {
       {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-1">
         <div>
-          <h5 className="my-3 text-2xl font-bold">Education</h5>
+          <h5 className="my-3 text-2xl font-bold border-b-4 border-green">Education</h5>
           <div className="">
             <h5 className="my-2 text-md ">
               Bachelor of Technology from Galgotias University with 8.59 CGPA
             </h5>
-            <p className="my-3 text-2xl font-bold">Experience</p>
+            <p className="my-3 text-2xl font-bold border-b-4 border-green">Experience</p>
             <p className="font-semibold">
-              MINDFIRE SOLUTIONS(Senior Software Developer)
+              MINDFIRE SOLUTIONS(Senior Software Engineer)
             </p>
             <ul>
               <li>
-                - Developed and maintained robust code for data collection from
-                various sources, including Google Analytics, Google Search
-                Console, Adobe and other relevant platforms.
+                - Developing and maintaining robust data collection code from
+                various platforms, including Google Analytics, Google Search
+                Console, Adobe, and other relevant sources.
               </li>
               <li>
-                - Collaborated with SEO specialists and stakeholders to
-                understand client requirements and gather data effectively for
-                improving SEO characteristics.
+                - Collaborated closely with SEO specialists and stakeholders to
+                understand client requirements and gather data effectively,
+                resulting in improved SEO characteristics.
               </li>
               <li>
                 - Implemented data collection pipelines using APIs and data
-                connectors to extract data from different sources.
+                connectors, ensuring seamless extraction of data from diverse
+                sources.
               </li>
               <li>
-                - Developed and maintained production-ready code for SEO data
-                collection processes.
+                - Developed and maintained production-ready code for efficient
+                and reliable SEO data collection processes.
               </li>
               <li>
-                - Collaborated closely with clients to understand their specific
-                needs and requirements for new software features or
-                enhancements.
+                - Adept at understanding client's specific needs and
+                requirements, collaborating to create tailored software features
+                or enhancements that exceed expectations.
               </li>
             </ul>
             <p className="font-semibold my-2">
-              DJT CORPORATION & INVESTMENTS(Software Developer)
+              DJT CORPORATION & INVESTMENTS(Software Engineer)
             </p>
             <ul>
               <li>
@@ -72,26 +73,25 @@ const Resume = () => {
                 enhancements.
               </li>
             </ul>
-            <p className="font-semibold my-2">
-            MOXTAIN(Software Developer)
-            </p>
+            <p className="font-semibold my-2">MOXTAIN(Software Engineer)</p>
             <ul>
               <li>
-                - Implemented multi-tenant architecture with the team to offer personalized trekking experiences to B2B
-clients on our platform.
+                - Implemented multi-tenant architecture with the team to offer
+                personalized trekking experiences to B2B clients on our
+                platform.
               </li>
               <li>
                 - Developed Django web application using MVC architecture.
               </li>
               <li>
-                - Built admin control console using Python, Django, and React.js for B2B customers, and developed scalable
-RESTful APIs using Django and Django REST Framework (DRF).
+                - Built admin control console using Python, Django, and React.js
+                for B2B customers, and developed scalable RESTful APIs using
+                Django and Django REST Framework (DRF).
               </li>
               <li>
-                - Developed Next.js websites with Bootstrap, integrating Google and Facebook authentication using
-NextAuth.
+                - Developed Next.js websites with Bootstrap, integrating Google
+                and Facebook authentication using NextAuth.
               </li>
-              
             </ul>
           </div>
         </div>
@@ -123,7 +123,7 @@ enhancements.</li>
       {/*Languages & Tools */}
       <div className="grid gap-9 md:grid-cols-2">
         <div>
-          <h5 className="my-3 text-2xl font-bold">Language & Framework</h5>
+          <h5 className="my-3 text-2xl font-bold border-b-4 border-green ">Language & Framework</h5>
           <div className="my-2">
             {languages.map((language, i) => (
               <Bar value={language} key={i} />

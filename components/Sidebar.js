@@ -30,7 +30,7 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href="resume_v3.pdf"
+        href="/rohit_portfolio/resume_v3.pdf"
         download="Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
@@ -58,7 +58,7 @@ const Sidebar = () => {
           <GoLocation className="mr-2" /> <span>Noida, India </span>
         </div>
         <p className="my-2 ">rohitkumardude10@gmail.com</p>
-        <p className="my-2">8287546468</p>
+        {/* <p className="my-2">8287*****</p> */}
       </div>
 
       {/* Email Button */}
