@@ -4,6 +4,7 @@ const nextConfig = {
   experimental: {
     applyCssImports: true,
   },
+  basePath: '/github-pages',
 }
 
 module.exports = nextConfig
