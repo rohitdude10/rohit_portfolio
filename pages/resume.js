@@ -38,7 +38,7 @@ const Resume = () => {
                 and reliable SEO data collection processes.
               </li>
               <li>
-                - Adept at understanding client's specific needs and
+                - Adept at understanding client specific needs and
                 requirements, collaborating to create tailored software features
                 or enhancements that exceed expectations.
               </li>
